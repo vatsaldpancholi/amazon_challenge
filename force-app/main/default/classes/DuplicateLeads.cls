@@ -11,6 +11,7 @@ public with sharing class DuplicateLeads {
         return leadDuplicateCheck(newLeads);
     }
 
+    // Used the below method for testing purpose only.
     private static List<Lead> getNewLeads() {
         return ([Select Territory__r.Region__c, Company, Email From Lead LIMIT 100]);
     }
