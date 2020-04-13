@@ -11,15 +11,20 @@ For the first part of this problem, I have created a validation rule (Probabilty
 For the second half of the problem, I have created a trigger and its helper class, which can be found in: "amazon_challenge/force-app/main/default/"
 
 Please find the components name below:
+
 Trigger:
+
 OpportunityTrigger.trigger
 
 Helper Classes:
+
 OpportunityTriggerHelper.cls
 Constants.cls
 
 Test Classes:
+
 OpportunityTriggerTest.cls
+
 
 
 
@@ -50,8 +55,11 @@ Solution 3:
 For this problem, I have created a class "DuplicateLeads" which can be found in: "amazon_challenge/force-app/main/default/".
 
 Please find the components name below:
+
 Classes:
+
 DuplicateLeads.cls
 
 Test Classes:
+
 DuplicateLeadsTest.cls
