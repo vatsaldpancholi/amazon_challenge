@@ -4,11 +4,22 @@ Detail a solution for the following: On the Opportunity object, prevent non-admi
 
 Solution1:
 
-For the first part of this problem, I have created a validation rule inside salesforce on Opportunity object as it is easier to maintain salesforce configuration piece. Please the code of the same below:
+For the first part of this problem, I have created a validation rule (ProbabiltyCheck_NonAdminUsers) inside salesforce on Opportunity object as it is easier to maintain salesforce configuration piece. Please the code of the same below:
 
 "AND($Profile.Name <> 'System Administrator', Probability > 0.50, ISCHANGED(Name))"
 
 For the second half of the problem, I have created a trigger and its helper class, which can be found in: "amazon_challenge/force-app/main/default/"
+
+Please find the components name below:
+Trigger:
+OpportunityTrigger.trigger
+
+Helper Classes:
+OpportunityTriggerHelper.cls
+Constants.cls
+
+Test Classes:
+OpportunityTriggerTest.cls
 
 
 
@@ -37,3 +48,10 @@ Write an Apex method called (leadDuplicateCheck) that will validate if a collect
 Solution 3:
 
 For this problem, I have created a class "DuplicateLeads" which can be found in: "amazon_challenge/force-app/main/default/".
+
+Please find the components name below:
+Classes:
+DuplicateLeads.cls
+
+Test Classes:
+DuplicateLeadsTest.cls
