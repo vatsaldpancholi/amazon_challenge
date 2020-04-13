@@ -1,3 +1,8 @@
+Please find the Salesforce Org credentials below, which contains all the code:
+Username: amazon-challenge@vatsaldpancholi.com
+Password: amazon@123
+
+
 Question 1:
 Detail a solution for the following: On the Opportunity object, prevent non-admin users from modifying the Opportunity Name once Probability is greater than 50% and Prevent Opportunity from being deleted if Probability greater than or equal to 75% (Please show code as necessary).
 
