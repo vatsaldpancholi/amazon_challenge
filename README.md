@@ -13,13 +13,17 @@ For the second half of the problem, I have created a trigger and its helper clas
 Please find the components name below:
 
 Trigger:
+
 OpportunityTrigger.trigger
 
 Helper Classes:
+
 OpportunityTriggerHelper.cls
+
 Constants.cls
 
 Test Classes:
+
 OpportunityTriggerTest.cls
 
 
@@ -54,7 +58,9 @@ For this problem, I have created a class "DuplicateLeads" which can be found in:
 Please find the components name below:
 
 Classes:
+
 DuplicateLeads.cls
 
 Test Classes:
+
 DuplicateLeadsTest.cls
